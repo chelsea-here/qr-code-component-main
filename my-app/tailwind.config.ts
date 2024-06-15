@@ -19,8 +19,8 @@ const config: Config = {
         'desktop': '1440px',
       },
       fontSize: {
-        base: '15px',
-        heading: '22px'
+        'sm': '0.9375rem',
+        'md': '1.375rem'
     },
   },
   plugins: [],

@@ -2,25 +2,27 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-gray-light content-center min-h-screen min-w-screen m-0 p-0 box-border">
-        <div className="flex-col m-auto w-[320px] h-[497px] p-[16px] bg-white rounded-lg">
+    <main className="bg-gray-light content-center min-h-screen">
+      <div className="flex flex-col p-4 mx-auto w-[20rem] bg-white rounded-lg">
+        <a href="https:///www.frontendmentor.io/home">
           <Image
-            className="rounded-lg"
+            className="mx-auto rounded-lg"
             src="/image-qr-code.png"
-            alt="qr code"
+            alt="This graphic is a QR code, click graphic to redirect to <https://www.frontendmentor.io/home>"
             width={288}
             height={288}
             priority
           />
-          <div className="mt-[24px]">
-            <header className="text-heading text-center font-bold">
-              Improve your front-end skills by building projects
-            </header>
-            <p className="text-base text-center font-[400px] pt-[16px] mx-[16px]">
-              Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-            </p>
-          </div>
+        </a>
+        <div className="my-6">
+          <h1 className="text-md text-blue-dark leading-7 text-center align-text-top font-bold mb-4">
+            Improve your front-end skills by building projects
+          </h1>
+          <p className="text-sm mx-4 leading-5 text-center text-blue-gray">
+            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+          </p>
         </div>
+      </div>
     </main >
   );
 }

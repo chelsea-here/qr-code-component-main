@@ -24,8 +24,8 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github solution](https://github.com/chelsea-here/qr-code-component-main)
+- Live Site URL: [Vercel app](https://qr-code-component-main-gold-alpha.vercel.app/)
 
 ## My process
 
