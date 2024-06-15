@@ -10,9 +10,9 @@ function IndexPage() {
                 <meta name="description"
                     content="My solution to Frontend Mentor&#8217;s QR challenge" />
                 <meta name="keywords"
-                    content="HTML, CSS, JavaScript, NextJS" />
+                    content="HTML, CSS, JavaScript, NextJS, Tailwindcss, React" />
                 <meta name="author"
-                    content="Chelsea Cruz" />
+                    content="Chelsea Anne Livingston Cruz" />
                 <meta name="viewport"
                     content="width=device-width, initial-scale=1.0" />
       </Head>
