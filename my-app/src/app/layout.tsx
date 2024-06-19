@@ -10,12 +10,14 @@ const outfit = Outfit({
  });
 
 export const metadata: Metadata = {
-  title: "QR code component",
-  description: "Frontend Mentor challenge",
+  title: 'Frontend Mentor QR challenge',
+  description: 'My solution to Frontend Mentors QR challenge',
+  keywords: ['HTML, CSS, JavaScript, NextJS, Tailwindcss, React'],
+  creator: 'Chelsea Anne Livingston Cruz',
 };
 
 export default function RootLayout({
-  children,
+  childr
 }: Readonly<{
   children: React.ReactNode;
 }>) {
