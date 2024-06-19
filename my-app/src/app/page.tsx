@@ -1,4 +1,12 @@
 import Image from "next/image";
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Frontend Mentor QR challenge',
+  description: 'My solution to Frontend Mentors QR challenge',
+  keywords: ['HTML, CSS, JavaScript, NextJS, Tailwindcss, React'],
+  creator: 'Chelsea Anne Livingston Cruz'
+}
 
 export default function Home() {
   return (
