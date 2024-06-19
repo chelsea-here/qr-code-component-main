@@ -5,7 +5,10 @@ function IndexPage() {
     <div>
       <Head>
         <title>Frontend Mentor QR challenge</title>
-        <link rel="icon" href="../favicon.ico" />
+        <link 
+          rel="icon" 
+          href="/my-app/favicon.ico" 
+          sizes="any" />
         <meta charSet="UTF-8" />
                 <meta name="description"
                     content="My solution to Frontend Mentor&#8217;s QR challenge" />
